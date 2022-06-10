@@ -3,7 +3,7 @@
            targetNamespace="http://kanji.co.ke/kcb/customers"
            elementFormDefault="qualified">
 
-    <xs:element name="ken21083_kcb_customer_create_request">
+    <xs:element name="ken21083KcbCustomerCreateRequest">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="customerName" type="xs:string"/>
@@ -14,7 +14,7 @@
         </xs:complexType>
     </xs:element>
 
-    <xs:element name="ken21083_kcb_customer_create_response">
+    <xs:element name="ken21083KcbCustomerCreateResponse">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="ken21083_kcb_creation_status" type="tns:creationStatus"/>
@@ -22,7 +22,7 @@
         </xs:complexType>
     </xs:element>
 
-    <xs:element name="ken21083_kcb_customer_account_create_request">
+    <xs:element name="ken21083KcbCustomerAccountCreateRequest">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="customerEmail" type="xs:string"/>
@@ -32,7 +32,7 @@
         </xs:complexType>
     </xs:element>
 
-    <xs:element name="ken21083_kcb_customer_account_create_response">
+    <xs:element name="ken21083KcbCustomerAccountCreateResponse">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="ken21083_kcb_creation_status" type="tns:creationStatus"/>

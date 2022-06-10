@@ -23,4 +23,9 @@ public class CustomerService {
         return creationStatus;
     }
 
+    public Customer getCustomerFromEmail(String email)
+    {
+        return customerRepository.findByCustomerEmail(email);
+    }
+
 }
